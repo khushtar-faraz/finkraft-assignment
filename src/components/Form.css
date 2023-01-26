@@ -1,0 +1,15 @@
+.form--wrapper{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+ .form{
+display: flex;
+flex-direction: column;
+}
+
+form > button {
+    margin-top: 15px;
+}
