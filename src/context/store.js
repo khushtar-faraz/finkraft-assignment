@@ -11,7 +11,7 @@ export const StateProvider = ({ children }) => {
   console.log(apiUrl);
 
   return (
-    <StateContext.Provider value={(apiUrl, setApiUrl, columnDef, setColumnDef)}>
+    <StateContext.Provider value={{apiUrl, setApiUrl, columnDef, setColumnDef}}>
       {children}
     </StateContext.Provider>
   );
